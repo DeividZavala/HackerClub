@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'twitter'
 ]
 
 MIDDLEWARE = [
@@ -118,3 +119,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CONSUMER_KEY = 'Rx2NIc9DoucCXFl6JPkdPccgv'
+CONSUMER_SECRET = 'nQPtjcdePslnCbeFXGemU3lcOQHSaaNvNL5isNcjtZTVnMuK3g'
+ACCESS_TOKEN_KEY = '101869004-kvIJSJ0HW3UpBEy8uXjy9N7ZmJuQQohHvwIoWtSl'
+ACCESS_TOKEN_SECRET = 'WfnHDpfMzGlsIPHzXivrWd92tZSuEq5BsTFYutIK5Mc4i'
