@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from getTwitts import urls
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^tweets/', include(tweetsUrl, namespace="tweets"))
 ]
